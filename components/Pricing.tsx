@@ -95,7 +95,7 @@ export default function Pricing() {
             </div>
             {isYearly && (
               <p className="text-emerald-400 font-medium mt-2">
-                That's just ${Math.round(yearlyPrice / 12)}/month
+                That&apos;s just ${Math.round(yearlyPrice / 12)}/month
               </p>
             )}
           </div>
@@ -124,5 +124,5 @@ export default function Pricing() {
         </motion.div>
       </div>
     </section>
-  </span>);
+  );
 }
