@@ -99,7 +99,10 @@ export default function Hero() {
                         <span className="text-2xl">🥊</span>
                       </div>
                       <div className="text-white font-semibold">Fighter B</div>
-                      <div className="text-violet-400 text-sm font-bold">32%</div></div>
+                      <div className="text-violet-400 text-sm font-bold">32%</div>
+                    </div>
+                  </div>
+                </div>
                 
                 {/* Stats Grid */}
                 <div className="grid grid-cols-2 gap-4">
@@ -148,10 +151,13 @@ export default function Hero() {
                 </div>
                 <div>
                   <div className="text-white font-semibold text-sm">Live Prediction</div>
-                  <div className="text-emerald-400 text-xs">Updated 2s ago</div></div>
+                  <div className="text-emerald-400 text-xs">Updated 2s ago</div>
+                </div>
+              </div>
+            </div>
           </motion.div>
         </div>
       </div>
     </section>
-  </div></div></div></div></div></div></div></div></div></div></div></div>);
+  );
 }
